@@ -6,7 +6,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - BLOG_URL=http://localhost:3001
+      - BLOG_URL=http://blog:3000
     volumes:
        - ./home/:/home/node/app
        
