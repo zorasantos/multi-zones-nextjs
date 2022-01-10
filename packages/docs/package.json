@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@monorepo/docs",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,5 +1,12 @@
 {
-  "name": "with-zones",
+  "name": "monorepo",
+  "version": "1.0.0",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "Zoranildo Santos <zoranildo22@gmail.com>",
   "license": "MIT"
 }
