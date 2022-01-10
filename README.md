@@ -28,3 +28,13 @@ App Docs:
 ```bash
   yarn dev -p 3002
 ```
+
+## Example
+
+Acesse a rota abaixo:
+
+```bash
+  http://localhost:3000/blog
+```
+
+O app home está rodando na porta 3000 e a rota /blog está no app blog que está rodando na porta 3001. Os app's home e blog são projetos diferentes, mas o app home consegue acessar as páginas do app blog. Essa é a ideia do multi zones como está descrito acima.  
